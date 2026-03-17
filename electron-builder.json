@@ -1,0 +1,33 @@
+
+{
+  "appId": "com.minibanquehub.app",
+  "productName": "GonaveBank",
+  "directories": {
+    "output": "release/"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*"
+  ],
+  "win": {
+    "target": [
+      "nsis"
+    ],
+    "icon": "public/icon.ico"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "GonaveBank",
+    "artifactName": "GonaveBank-Setup-${version}.${ext}"
+  },
+  "publish": [
+    {
+      "provider": "github",
+      "owner": "minibanquehub",
+      "repo": "mini-banque-hub"
+    }
+  ]
+}

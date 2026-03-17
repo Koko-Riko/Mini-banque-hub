@@ -1,0 +1,111 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 220 100% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 100% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 100% 18%;
+
+    --primary: 220 100% 18%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 37 90% 51%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 240 5% 85%;
+    --muted-foreground: 220 30% 40%;
+
+    --accent: 37 90% 51%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 5% 82%;
+    --input: 240 5% 82%;
+    --ring: 220 100% 18%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 220, 100%, 18%;
+    --sidebar-foreground: 0, 0%, 100%;
+    --sidebar-primary: 37, 90%, 51%;
+    --sidebar-primary-foreground: 0, 0%, 100%;
+    --sidebar-accent: 220, 100%, 25%;
+    --sidebar-accent-foreground: 0, 0%, 100%;
+    --sidebar-border: 220, 100%, 25%;
+    --sidebar-ring: 37, 90%, 51%;
+  }
+
+  .dark {
+    --background: 220 50% 8%;
+    --foreground: 240 5% 90%;
+
+    --card: 220 50% 12%;
+    --card-foreground: 240 5% 90%;
+
+    --popover: 220 50% 12%;
+    --popover-foreground: 240 5% 90%;
+
+    --primary: 37 90% 51%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 100% 18%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 30% 20%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 37 90% 51%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 30% 20%;
+    --input: 220 30% 20%;
+    --ring: 37 90% 51%;
+    
+    --sidebar-background: 220, 50%, 8%;
+    --sidebar-foreground: 240, 5%, 90%;
+    --sidebar-primary: 37, 90%, 51%;
+    --sidebar-primary-foreground: 0, 0%, 100%;
+    --sidebar-accent: 220, 30%, 20%;
+    --sidebar-accent-foreground: 240, 5%, 90%;
+    --sidebar-border: 220, 30%, 20%;
+    --sidebar-ring: 37, 90%, 51%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom banking styles */
+@layer components {
+  .banking-card {
+    @apply bg-white rounded-lg shadow-md p-4 border border-gray-100;
+  }
+  
+  .transaction-item {
+    @apply flex items-center justify-between p-3 border-b border-gray-100 hover:bg-gray-50;
+  }
+  
+  .stat-card {
+    @apply p-4 rounded-lg;
+  }
+}

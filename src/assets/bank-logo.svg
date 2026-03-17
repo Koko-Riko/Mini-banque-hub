@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="OBJECTS" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #292438;
+      }
+
+      .cls-2 {
+        fill: url(#Degradado_sin_nombre_2-2);
+      }
+
+      .cls-3 {
+        fill: url(#Degradado_sin_nombre_4-2);
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_4-3);
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_4);
+      }
+
+      .cls-6 {
+        fill: url(#Degradado_sin_nombre_2);
+      }
+
+      .cls-7 {
+        fill: url(#Degradado_sin_nombre_37);
+      }
+
+      .cls-8 {
+        fill: url(#Degradado_sin_nombre_29);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_4" data-name="Degradado sin nombre 4" x1="130" y1="426.99" x2="130" y2="305.32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff4d00"/>
+      <stop offset="1" stop-color="#ff654a"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_4-2" data-name="Degradado sin nombre 4" x1="220.77" y1="457.15" x2="220.77" y2="312.2" xlink:href="#Degradado_sin_nombre_4"/>
+    <linearGradient id="Degradado_sin_nombre_4-3" data-name="Degradado sin nombre 4" x1="311.54" y1="450.27" x2="311.54" y2="250.82" xlink:href="#Degradado_sin_nombre_4"/>
+    <linearGradient id="Degradado_sin_nombre_29" data-name="Degradado sin nombre 29" x1="85.41" y1="316.4" x2="312.99" y2="144.56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".31" stop-color="#fbfcff"/>
+      <stop offset=".55" stop-color="#f2f5ff"/>
+      <stop offset=".77" stop-color="#e1eaff"/>
+      <stop offset=".97" stop-color="#cad9ff"/>
+      <stop offset="1" stop-color="#c7d7ff"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" x1="245.74" y1="489.99" x2="245.74" y2="26.64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffad20"/>
+      <stop offset="1" stop-color="#ff654a"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_37" data-name="Degradado sin nombre 37" x1="392.58" y1="95.46" x2="296.95" y2="193.66" gradientUnits="userSpaceOnUse">
+      <stop offset=".19" stop-color="#c7d7ff"/>
+      <stop offset=".25" stop-color="#d9e4ff"/>
+      <stop offset=".32" stop-color="#eaf0ff"/>
+      <stop offset=".42" stop-color="#f6f8ff"/>
+      <stop offset=".55" stop-color="#fdfdff"/>
+      <stop offset=".91" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_2-2" data-name="Degradado sin nombre 2" x1="408.11" y1="304.87" x2="352.88" y2="408.44" xlink:href="#Degradado_sin_nombre_2"/>
+  </defs>
+  <g>
+    <polygon class="cls-5" points="109 297.36 99.55 306.82 99.55 393.39 160.46 393.39 160.46 348.82 109 297.36"/>
+    <circle class="cls-1" cx="215.56" cy="234.67" r="188.78"/>
+  </g>
+  <polygon class="cls-3" points="190.32 363.64 190.32 417.13 251.23 417.13 251.23 302.73 190.32 363.64"/>
+  <polygon class="cls-4" points="316.16 237.79 281.08 272.87 281.08 395.2 341.99 395.2 341.99 263.62 316.16 237.79"/>
+  <polygon class="cls-8" points="57.02 310.23 32.6 285.81 109 209.41 182.79 283.2 308.28 157.71 332.7 182.14 182.79 332.05 109 258.25 57.02 310.23"/>
+  <path class="cls-6" d="M394.11,340.91c20.15-32.3,31.6-70.59,31.04-111.59-1.54-111.18-92.53-201.68-203.72-202.66C106.42,25.64,12.99,119.07,14,234.08c.98,111.24,91.56,202.25,202.8,203.72,41.04.54,79.35-10.95,111.65-31.16l69.74,69.74c18.14,18.14,47.56,18.14,65.7,0h0c18.14-18.14,18.14-47.56,0-65.7l-69.77-69.77ZM222.73,398.41c-94.29,1.75-171.08-75.04-169.34-169.34,1.65-88.87,74.16-161.38,163.03-163.03,94.29-1.75,171.08,75.04,169.34,169.34-1.65,88.87-74.16,161.38-163.03,163.03Z"/>
+  <polygon class="cls-7" points="258.01 140.53 349.89 232.4 379.43 110.99 258.01 140.53"/>
+  <path class="cls-2" d="M393.78,341.32c-16.51,26.19-38.74,48.45-64.91,64.99-.14.11-.28.23-.42.34,9.14,9.14,18.27,18.27,27.41,27.41,22.17-23.14,38.99-51.44,48.49-82.91l-10.23-10.23c-.11.14-.22.28-.33.41Z"/>
+</svg>
